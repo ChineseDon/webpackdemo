@@ -126,7 +126,7 @@ module.exports = {
     new purifyCssPlugin({
       paths: glob.sync(path.join(__dirname, "src/*.html"))
     }),
-    new webpack.BannerPlugin('唐小强的webpack demo'),
+    new webpack.BannerPlugin('***的webpack demo'),
     new copyFilePlugin([{
       from: __dirname + '/src/static',
       to: './static'
