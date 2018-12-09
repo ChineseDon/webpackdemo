@@ -1,0 +1,26 @@
+/*! 唐小强的webpack demo */
+body {
+  background-color: brown;
+  color: white;
+}
+
+#tupian {
+  background-image: url(http://192.168.1.102:8089/images/df509a3f3df6c840acb8310bc41af8e9.png);
+  width: 100px;
+  height: 100px;
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, .25);
+}
+
+#go {
+  width: 300px;
+  height: 200px;
+  background-color: #000;
+}
+
+#nav {
+  width: 100%;
+  height: 100px;
+  background-color: #fff;
+}
